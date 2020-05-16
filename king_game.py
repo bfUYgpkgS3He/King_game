@@ -44,19 +44,19 @@ def ask_click():
         data = [1, 2]
         a, b = random.sample(data, 2)
         answer1["text"] = str(a) + "が" + str(b)
-        foo = ["にキスする", "の乳首を舐める", "の服を1枚脱がす"]
+        foo = ["にキスする", "にハグをする", "の服を1枚脱がす"]
         answer["text"] = str(random.choice(foo))
     elif minutes == "3":
         data = [1, 2, 3]
         a, b = random.sample(data, 2)
         answer1["text"] = str(a) + "が" + str(b)
-        foo = ["にキスする", "の乳首を舐める", "の服を1枚脱がす"]
+        foo = ["にキスする", "にハグをする", "の服を1枚脱がす"]
         answer["text"] = str(random.choice(foo))
     elif minutes == "4":
         data = [1, 2, 3, 4]
         a, b = random.sample(data, 2)
         answer1["text"] = str(a) + "が" + str(b)
-        foo = ["にキスする", "の乳首を舐める", "の服を1枚脱がす"]
+        foo = ["にキスする", "にハグをする", "の服を1枚脱がす"]
         answer["text"] = str(random.choice(foo))
     else:
         answer1["text"] = str("2~4人用です")
